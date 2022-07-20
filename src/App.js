@@ -1,22 +1,13 @@
 /* eslint-disable no-unused-vars */
 import './App.css';
-import { Searchbar } from './components/Searchbar/Searchbar';
+import { TodoList } from './components/TodoList/TodoList';
 
 function App() {
   return (
     <div className="App">
-      <header>
-        <div>
-          <p>
-            Weather
-          </p>
-          <Searchbar/>
-        </div>
-      </header>
       <div>
-        <div>
-          <h1>Weather</h1>
-        </div>
+        Ticket lis
+        <TodoList />
       </div>
     </div>
   );
